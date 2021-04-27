@@ -1,6 +1,6 @@
 # LTTS_embedded
 
-# Activity One
+# Activity 1
 
 
 |ON|OFF|
