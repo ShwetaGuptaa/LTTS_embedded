@@ -8,6 +8,3 @@
 |ON|OFF|
 |:--:|:--:|
 |![ON](https://github.com/ShwetaGuptaa/LTTS_embedded/blob/main/simulation/ON.png)|![OFF](https://github.com/ShwetaGuptaa/LTTS_embedded/blob/main/simulation/OFF.png)|
-
-
-
