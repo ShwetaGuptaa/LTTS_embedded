@@ -1,3 +1,13 @@
+/**
+ * @file Activity3.c
+ * @author Shweta Gupta
+ * @brief source code for activity 3(PWM generation)
+ * @version 0.1
+ * @date 2021-05-03
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "Activity3.h"
 #include<avr/io.h>
 // #include<string.h>

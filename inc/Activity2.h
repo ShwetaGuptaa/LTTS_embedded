@@ -18,6 +18,16 @@
 
 #define SET_ADC_INTERRUPT ADCSRA|=(1<<ADIF)
 #define ADC_INTERRUPT_NOT_TRIGGERED !(ADCSRA & (1<<ADIF))
+/**
+ * @brief Initialising ADC 
+ * 
+ */
 void Init_ADC();
+/**
+ * @brief reading temp value through ADC
+ * 
+ * @param ch 
+ * @return uint16_t 
+ */
 uint16_t ReadADC(uint8_t ch);
 #endif

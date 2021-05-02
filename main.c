@@ -1,3 +1,13 @@
+/**
+ * @file main.c
+ * @author Shweta Gupta
+ * @brief main file for Car seat Heater Controller system
+ * @version 0.1
+ * @date 2021-05-03
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <avr/io.h>
 #include <util/delay.h>
 #include "Activity1.h"

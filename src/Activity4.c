@@ -1,4 +1,14 @@
-#include <avr/io.h>
+
+/**
+ * @file Activity4.c
+ * @author Shweta Gupta
+ * @brief source code for activity 4 (writing through UART)
+ * @version 0.1
+ * @date 2021-05-03
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "Activity4.h"
 
 void Init_UART(uint16_t UBRR_val){
