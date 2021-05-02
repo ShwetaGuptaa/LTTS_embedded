@@ -32,8 +32,8 @@ uint16_t ReadADC(uint8_t ch){
     ADMUX|=ch;
     //start single conversion
     ADCSRA|=(1<<ADSC);
-    while(ADC_INTERRUPT_NOT_TRIGGERED){
+    while(ADC_INTERRUPT_NOT_TRIGGERED);
         SET_ADC_INTERRUPT;
         return(ADC);
-    }
+    
 }
